@@ -1,11 +1,14 @@
-public static void printCharIndex(String str, char sym) {
+public class CharIndex {
 
-    for (int i = 0; i < str.length(); i++) {
+    public static void printCharIndex(String str, char sym) {
 
-        if (str.charAt(i) == sym) {
-            System.out.print(i + " ");
+        for (int i = 0; i < str.length(); i++) {
+
+            if (str.charAt(i) == sym) {
+                System.out.print(i + " ");
+            }
         }
-    }
 
-    System.out.println();
+        System.out.println();
+    }
 }
